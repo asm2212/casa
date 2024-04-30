@@ -6,7 +6,7 @@ const HomePage = () =>{
   return (
     <div className="flex flex-col gap-12">
         <div className="bg-white rounded-lg shadow-md py-12 flex felx-col gap-4 text-center -mt-16">
-            <h1 className="text-4xl font-bold tracking-tight text-red-500">
+            <h1 className="text-4xl font-bold tracking-tight text-orange-500">
                 Bringing the world to your doorstep, one bite at a time.
             </h1>
             <span className="text-xl">
@@ -20,7 +20,7 @@ const HomePage = () =>{
                     Fast Food Made Easy
                 </span>
                 <span>
-                    Download the HUFD app for faster ordering
+                    Download the Casa app for faster ordering
                 </span>
                 <img src={appdownloadimage} alt="App Download" />
             </div>
